@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Instagram</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <style>
+      P{
+        font-family:Roboto, arial;
+      }
+      .parent-card{
+        display:flex;
+        flex-direction: row;
+        gap:20px;
+      }
+      .pic-card{
+        margin-right:70px;
+        margin-left:30px;
+        
+        
+
+      }
+      .profile-pic{
+        width:130px;
+        height:130px;
+        object-fit: cover;
+        border-radius:100px;
+      }
+      .name-btn{
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+
+      }
+      .name{
+        width:100%;
+        max-width:400px;
+        font-size:25px;
+        margin-left:5px;
+        margin-right:20px;
+        
+        
+
+      }
+      .btn{
+        margin-left:auto;
+        color:white;
+        background-color:rgb(13, 127, 198);
+        padding-left:12px;
+        padding-right:12px;
+        padding-top:7px;
+        padding-bottom:7px;
+        border:none;
+        margin-right:70px;
+        width:100%;
+        max-width:200px;
+        border-radius:5px;
+        text-align: center;
+        font-size:20px;
+
+      }
+      .f-stats{
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap:50px;
+        margin-left:5px;
+        
+
+      }
+      .big-sur{
+        margin:5px;
+      }
+      .p-1,
+      .p-2,
+      .p-3,
+      .p-4,
+      .p-5{
+        font-size: 13px;
+        margin:5px;
+      }
+
+      .post-n{
+        font-size:20px;
+        font-weight:500;
+        
+        
+      }
+      .post{
+        font-size:13px;
+        font-weight:normal;
+
+      }
+      .followers-n{
+       font-size:20px;
+      font-weight:500;
+
+      }
+      .followers{
+       font-size:13px;
+       font-weight:normal;
+
+      }
+      .following-n{
+       font-size:20px;
+       font-weight:500;
+  
+      }
+      .following{
+       font-size:13px;
+       font-weight:normal;
+
+      }
+      .gallery{
+       width:100%;
+       max-width: 500px;
+      }
+      .image-1,
+      .image-2,
+      .image-3,
+      .image-4{
+        width:80px;
+        height:80px;
+        object-fit:cover;
+        margin:10px;
+        border-radius:40px;
+        
+
+      }
+      .post-tagged{
+        width:100%;
+        max-width:700px;
+        display:flex;
+        justify-content: center;
+        
+      }
+      .p-t{
+        font-weight:500;
+        margin-right:20px;
+
+      }
+      .t-t{
+        font-weight:500;
+        color:grey;
+        margin-left:20px;
+
+      }
+      .insta-gallery{
+        display:grid;
+        grid-template-columns:1fr 1fr 1fr;
+        width:100%;
+        max-width:700px;
+        gap:15px;
+        margin-bottom: 15px;
+        
+      }
+      .post-1,
+      .post-2,
+      .post-3{
+        object-fit:cover;
+        width:100%;
+        aspect-ratio: 1/1;
+        
+    
+
+      }
+      
+    </style>
+  </head>
+
+  <body>
+
+    <div class="parent-card">
+        <div class="pic-card">
+        <img class="profile-pic" src="thumbnails/dog-1.png">
+      </div>
+
+
+      <div class="profile">
+          <!--name and btn-->
+        <div class="name-btn">
+          <p class="name">bigsurcalifornia</p>
+          <button class="btn">Follow</button>
+        </div>
+
+    <!--followers-stats-->
+
+        <div class="f-stats">
+          <div><p class="post-n">215  <span class="post"> post</span></p></div>
+          <div><p class="followers-n"> 80.4k  <span class="followers"> followers</span></p></div>
+          <div><p class="following-n">99  <span class="following"> following</span></p></div>
+        </div>
+    <!--profile info-->
+        <div>
+          <p class="big-sur"><strong>Big sur</strong></p>
+          <p class="p-1">The official Big Sur instagram feed.</p>
+          <p class="p-2">Sharing the best photos of Big sur.
+          <p class="p-3">tag us <span style="color:rgb(13, 127, 198);">@bigsurcalifornia</span> to be featured</p>
+          <p class="p-4">Visit our site for info and goods</p>
+          <p class="p-5"><span style="color:rgb(21, 101, 222);">www.bigsurcali.com</span></p>
+          </p>
+        </div>  
+      </div>
+    </div>
+
+
+    <div>
+      <div class="gallery">
+        <img class="image-1" src="thumbnails/dog-1.png">
+        <img class="image-2" src="thumbnails/hq720.avif">
+        <img class="image-3" src="thumbnails/insta.png.png">
+        <img class="image-4" src="thumbnails/lungu.png">
+      </div>
+
+    </div>
+
+
+    <div>
+      <div class="post-tagged">
+      <p class="p-t">POSTS</p>
+      <p class="t-t">TAGGED</p>
+    </div>
+
+    <div class="insta-gallery">
+      <img class="post-1" src="thumbnails/lungu.png">
+      <img class="post-2" src="thumbnails/hq720.avif">
+      <img class="post-3" src="thumbnails/nike.png">
+    </div>
+
+    <div class="insta-gallery">
+      <img class="post-1" src="thumbnails/lungu.png">
+      <img class="post-2" src="thumbnails/hq720.avif">
+      <img class="post-3" src="thumbnails/nike.png">
+    </div>
+
+    </div>
+
+    
+  </body>
+</html>
